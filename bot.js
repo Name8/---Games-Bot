@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "#";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
+    if (message.content == "-سرعه") {
         var x = ["DreamKing",
 "DeathGames",
 "زيرو كنج",
@@ -13,6 +13,7 @@ client.on('message', message => {
 "القسطنطينية",
 "النهاية",
 "امازون",
+"عمي العالمي",
 "جافاسكربت",
 "سهله مو صعبه",
 "طبق رطب مرق بقر",
@@ -23,8 +24,10 @@ client.on('message', message => {
 "الحوت الأزرق",
 "بلاد الرافدين",
 "كانيكي",
+"نحن نحب العالمي",
 "توكا",
 "عادل امام",
+"تاج راسي سيستم",
 "عمرو ذياب",
 "عمان",
 "مسقط",
@@ -106,7 +109,7 @@ client.on('message', message => {
 })
 
 client.on('message', puz => {
-    if (puz.content == "#لغز") {
+    if (puz.content == "-لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -157,7 +160,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+    if (fkk.content == "-فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
